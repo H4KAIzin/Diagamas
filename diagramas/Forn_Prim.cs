@@ -1,21 +1,21 @@
 namespace Diagamas;
 
-public partial class Forn_Prim(
-
-    Public Forn_Prim()
+public class Forn_Prim{
+    Int64 Id;
+    String Fornecedor;
+    String MateriaPrima;
+     String Preco;
+    public Forn_Prim()
     {
-        Int64 Id;
-        String Fornecedor;
-        String MateriaPrima;
-        String Preco;
+        
     }
 
-    private void SetId(Int64 i)
+    private void SetId1(Int64 i)
     {
         Id = i;
     }
 
-    public string GetId()
+    public Int64 GetId1()
     {
         return Id;
     }
@@ -43,11 +43,11 @@ public partial class Forn_Prim(
 
     private void SetPreco(String p)
     {
-        Senha = p;
+        Preco = p;
     }
 
     public string GetPreco()
     {
         return Preco;
     }
-)
+}

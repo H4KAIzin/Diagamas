@@ -1,16 +1,15 @@
-using System.Security.Cryptography.X509Certificates;
-using Microsoft.Maui.ApplicationModel.Communication;
+
 
 namespace Diagamas;
 
-public partial class Cliente(
-
-    Public Cliente()
+public class Cliente{
+    Int64 Id;
+    String Nome;
+    String Email;
+    String Senha;
+    public Cliente()
     {
-        Int64 Id;
-        String Nome;
-        String Email;
-        String Senha;
+        
     }
 
     private void SetId(Int64 i)
@@ -18,7 +17,7 @@ public partial class Cliente(
         Id = i;
     }
 
-    public string GetId()
+    public Int64 GetId()
     {
         return Id;
     }
@@ -51,6 +50,6 @@ public partial class Cliente(
 
     public string GetSenha()
     {
-        return senha;
+        return Senha;
     }
-)
+}

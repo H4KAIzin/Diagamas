@@ -1,21 +1,22 @@
 namespace Diagamas;
 
-public partial class Fornecedor(
-
-    Public Fornecedor()
+public class Fornecedor{
+    Int64 Id;
+    String Nome;
+    String Email;
+     String Senha;
+    public Fornecedor()
     {
-        Int64 Id;
-        String Nome;
-        String Email;
-        String Senha;
+       
     }
+       
 
     private void SetId(Int64 i)
     {
         Id = i;
     }
 
-    public string GetId()
+    public Int64 GetId()
     {
         return Id;
     }
@@ -48,6 +49,6 @@ public partial class Fornecedor(
 
     public string GetSenha()
     {
-        return senha;
+        return Senha;
     }
-)
+}

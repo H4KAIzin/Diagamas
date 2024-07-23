@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("diagramas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+6bafa7c5986cc407d26c74cc3c97ae94685d9ee8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d4bad917dab0263de2537bb3cc06eeedddb6ec8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("diagramas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("diagramas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

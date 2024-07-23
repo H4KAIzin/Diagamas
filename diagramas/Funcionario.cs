@@ -1,13 +1,13 @@
 namespace Diagamas;
 
-public partial class Funcionario(
-
-    Public Funcionario()
-    {
+public class Funcionario{
         Int64 Id;
         String Nome;
         String Email;
         String Senha;
+    public Funcionario()
+    {
+       
     }
 
     private void SetId(Int64 i)
@@ -15,7 +15,7 @@ public partial class Funcionario(
         Id = i;
     }
 
-    public string GetId()
+    public Int64 GetId()
     {
         return Id;
     }
@@ -48,6 +48,6 @@ public partial class Funcionario(
 
     public string GetSenha()
     {
-        return senha;
+        return Senha;
     }
-)
+}

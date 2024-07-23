@@ -1,13 +1,14 @@
 namespace Diagamas;
 
-public partial class Materia_Prima(
-
-    Public Materia_Prima()
-    {
+public class Materia_Prima{
         Int64 Id;
         String Fornecedor;
         String Tipo;
         String Preco;
+    
+    public Materia_Prima()
+    {
+        
     }
 
     private void SetId(Int64 i)
@@ -15,7 +16,7 @@ public partial class Materia_Prima(
         Id = i;
     }
 
-    public string GetId()
+    public Int64 GetId()
     {
         return Id;
     }
@@ -37,17 +38,17 @@ public partial class Materia_Prima(
 
     public string GetTipo()
     {
-        return t;
+        return Tipo;
     }
 
 
-    private void SetPreco(String s)
+    private void SetPreco(String p)
     {
-        Senha = p;
+        Preco = p;
     }
 
     public string GetPreco()
     {
-        return preco;
+        return Preco;
     }
-)
+}
