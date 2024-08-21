@@ -33777,11 +33777,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aluno\\Diagamas\\diagramas\\diagramas.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno\\Diagamas-1\\diagramas\\diagramas.csproj",
       "projectName": "diagramas",
-      "projectPath": "C:\\Users\\Aluno\\Diagamas\\diagramas\\diagramas.csproj",
+      "projectPath": "C:\\Users\\Aluno\\Diagamas-1\\diagramas\\diagramas.csproj",
       "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno\\Diagamas\\diagramas\\obj\\",
+      "outputPath": "C:\\Users\\Aluno\\Diagamas-1\\diagramas\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
